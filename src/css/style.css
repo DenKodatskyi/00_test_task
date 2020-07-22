@@ -1,0 +1,180 @@
+/*  */
+* {
+  box-sizing: border-box;
+  background-color: gainsboro
+}
+
+
+/* Benefits */
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.benefits_item {
+  width: 30%;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: inherit;
+  box-shadow: 0 10px 25px grey;
+}
+
+.benefits_icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.benefits_title {
+  font-size: 20px;
+}
+
+.benefits_title::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 0 auto 20px;
+  background-color: violet;
+}
+
+
+/* Form */
+.form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: inherit;
+  box-shadow: 0 10px 25px grey;
+}
+
+.form_group {
+  margin-bottom: 20px;
+}
+
+.form_control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border: 1px solid grey;
+  font-family: inherit;
+  font-size: 16px;  
+}
+
+.form_control:focus {
+  outline: none;
+  border-color: rebeccapurple;
+}
+
+.form_control.textarea {
+  min-height: 150px;
+  max-height: 500px;
+  resize: vertical;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: burlywood;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  line-height: 1.2;
+  transition: 1s;
+}
+
+.btn:hover, 
+.btn:focus {
+  background-color: darkcyan;
+  color: rgb(71, 255, 126);
+}
+
+.btn:focus {
+  outline: none;
+  border-color: rebeccapurple;
+}
+
+
+/* Article */
+.article {
+  max-width: 500px;
+  min-height: 500px;
+  margin: 30px auto;
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(72, 72, 72)
+}
+
+.article_photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.article_content {
+  padding: 20px;
+}
+
+.article_title {
+  margin: 0 0 20px;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.article_title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article_title a:hover {
+  text-decoration: underline;
+}
+
+.article_text {
+  margin-bottom: 20px;
+}
+
+.article_footer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
